@@ -1,0 +1,38 @@
+@import 'vars';
+#advert{
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 15px;
+	margin:2%;
+	padding-top:15px;
+	padding-bottom: 20px;
+	.banners{
+		display: flex;
+	    flex-wrap: wrap;
+	    justify-content: center;
+	    width: 100%;
+		.banner{
+		    height: 150px;
+    		width: 97%;
+		    border: 1px solid #cccccc;
+		    border-radius: 8px;
+		    align-items: inherit;
+		    margin: 5px;
+		    .banner-1{
+		    height: 100%;
+	    	background-image: url("../images/banner-1.png");
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+			border-radius:8px;
+    	    }
+		    .banner-2{
+		    height: 100%;
+	    	background-image: url("../images/banner-2.png");
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+			border-radius:8px;
+    	    }
+	    }
+    }
+}

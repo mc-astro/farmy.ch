@@ -1,0 +1,88 @@
+$( document ).ready(function() {
+    console.log( "ready!" );
+
+$("#burger").click(function() {  
+    $('#menu').toggleClass("is-open");    
+});
+
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:0,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:2,
+            nav:false
+        },
+        600:{
+            items:4,
+            nav:false
+        },
+        1000:{
+            items:6,
+            nav:false,
+            loop:false
+        }
+    }
+});
+$('.owl-neu-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:false
+        },
+        600:{
+            items:2,
+            nav:false
+        },
+        1000:{
+            items:3,
+            nav:false,
+            loop:false
+        }
+    }
+});
+$('.owl-advert-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:false
+        },
+        600:{
+            items:2,
+            nav:false
+        },
+        1000:{
+            items:2,
+            nav:false,
+            loop:false
+        }
+    }
+});
+$('.owl-misc-carousel').owlCarousel({
+    loop:true,
+    margin:5,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:3,
+            nav:false
+        },
+        600:{
+            items:3,
+            nav:false
+        },
+        1000:{
+            items:3,
+            nav:false,
+            loop:false
+        }
+    }
+});
+});

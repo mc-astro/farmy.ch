@@ -1,0 +1,180 @@
+@import 'vars';
+#categories{
+	border-bottom: 1px solid #ccc;
+	margin:2%;
+	padding-top:15px;
+	padding-bottom: 20px;
+	font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+	h3{
+		float:left;
+		font-size: 0.9rem;
+	    color: $farmy2;
+	}
+	button{
+		float:right;
+		font-size: 0.8rem;
+		color: #fff;
+		background: $farmy2;	    
+	    border: none;
+	    border-radius: 4px;
+	    margin-bottom: 6px;
+
+	}
+	.category{
+		display: flex;
+	    flex-wrap: wrap;
+	    justify-content: center;
+	    width: 100%;
+		.item-category{
+			background: white;
+		    height: 100px;
+		    border: 1px solid #979797;
+		    border-radius: 8px;
+		    align-items: inherit;
+		    margin: 5px;
+		    //margin: 10px 0px 0px 10px;
+			// background-image: url("IMAGE_URL"); 
+			// background-image: url("IMAGE_URL"), linear-gradient(0deg, rgba(0,0,0,0.90) 0%, rgba(0,0,0,0.00) 36%); 
+		    .gradient{
+		    	position:relative;
+		    	height:100%;
+		    	width:100%;
+		    	border-radius: 6px;
+
+
+	    	 	h4 {
+			    	color: white;
+				    position: absolute;
+				    top: 55px;
+				    left: 7px;
+				    font-size: 0.85rem;
+
+
+				   	&:before {
+					    display: inline-block;
+					    width: 30px;
+					  	height: 20px;
+    					margin-right: -2px;
+					    content: "";
+					   
+				    }
+				    &.obst {
+				    	&:before{
+				    		background: url(../images/icon-obst.png) no-repeat 0 0;
+				    		background-size: 78%;
+
+				    	}
+				    }
+				    &.flei {
+				    	&:before{
+				    		background: url(../images/icon-flei.png) no-repeat 0 0;
+				    		background-size: 78%;
+				    	}
+				    }
+
+				    &.milc {
+				    	&:before{
+				    		background: url(../images/icon-milc.png) no-repeat 0 0;
+				    		background-size: 78%;
+				    	}
+				    }
+				    &.korb {
+				    	&:before{
+				    		background: url(../images/icon-korb.png) no-repeat 0 0;
+				    		background-size: 78%;
+				    	}
+				    }
+				    &.back {
+				    	&:before{
+				    		background: url(../images/icon-back.png) no-repeat 0 0;
+				    		background-size: 78%;
+				    	}
+				    }
+
+				    &.vorra {
+				    	&:before{
+				    		background: url(../images/icon-vorra.png) no-repeat 0 0;
+				    		background-size: 78%;
+				    	}
+				    }
+
+				    &.getr {
+				    	&:before{
+				    		background: url(../images/icon-getr.png) no-repeat 0 0;
+				    		background-size: 78%;
+				    	}
+				    }
+				    &.mues {
+				    	&:before{
+				    		background: url(../images/icon-mues.png) no-repeat 0 0;
+				    		background-size: 78%;
+				    	}
+				    }
+				    &.vega {
+				    	&:before{
+				    		background: url(../images/icon-vega.png) no-repeat 0 0;
+				    		background-size: 78%;
+				    	}
+				    }
+		    	}
+			}
+		}
+
+		.background-obst {
+			background-image: url("../images/category-obst.jpg"), linear-gradient(0deg, rgba(0,0,0,0.90) 0%, rgba(0,0,0,0.00) 36%);
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+		}
+		.background-flei {
+			background-image: url("../images/category-flei.jpg"), linear-gradient(0deg, rgba(0,0,0,0.90) 0%, rgba(0,0,0,0.00) 36%);
+			background-repeat: no-repeat;
+			background-position: bottom;
+			background-size: cover;
+		}
+		.background-milc {
+			background-image: url("../images/category-milc.jpg"), linear-gradient(0deg, rgba(0,0,0,0.90) 0%, rgba(0,0,0,0.00) 36%);
+			background-repeat: no-repeat;
+			background-position: bottom;
+			background-size: cover;
+		}
+		.background-korb {
+			background-image: url("../images/category-korb.jpg"), linear-gradient(0deg, rgba(0,0,0,0.90) 0%, rgba(0,0,0,0.00) 36%);
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+		}
+		.background-back {
+			background-image: url("../images/category-back.jpg"), linear-gradient(0deg, rgba(0,0,0,0.90) 0%, rgba(0,0,0,0.00) 36%);
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+		}
+		.background-vorra {
+			background-image: url("../images/category-vorra.jpg"), linear-gradient(0deg, rgba(0,0,0,0.90) 0%, rgba(0,0,0,0.00) 36%);
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+		}
+		.background-getr {
+			background-image: url("../images/category-getr.jpg"), linear-gradient(0deg, rgba(0,0,0,0.90) 0%, rgba(0,0,0,0.00) 36%);
+			background-repeat: no-repeat;
+			background-position: bottom;
+			background-size: cover;
+		}
+		.background-mues {
+			background-image: url("../images/category-mues.jpg"), linear-gradient(0deg, rgba(0,0,0,0.90) 0%, rgba(0,0,0,0.00) 36%);
+			background-repeat: no-repeat;
+			background-position: bottom;
+			background-size: cover;
+		}
+		.background-vega {
+			background-image: url("../images/category-vega.jpg"), linear-gradient(0deg, rgba(0,0,0,0.90) 0%, rgba(0,0,0,0.00) 36%);
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+		}
+	}
+}
+

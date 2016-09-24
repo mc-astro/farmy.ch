@@ -1,0 +1,61 @@
+
+#misc{
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 15px;
+	margin:2%;
+	padding-top:15px;
+	padding-bottom: 50px;
+	h3{
+		float:left;
+		font-size: 0.9rem;
+	    color: $farmy2;
+	    margin-bottom:10px;
+	    
+	}
+	.banners-misc{
+		display: flex;
+	    flex-wrap: wrap;
+	    justify-content: center;
+	    width: 100%;
+		.banner-misc{
+		    height: 60px;
+    		width: 97%;
+		    border: 1px solid #cccccc;
+		    border-radius: 8px;
+		    align-items: inherit;
+		    margin: 5px;
+			@media (min-width: 600px) { 
+				height: 120px;
+			}
+		    .banner-misc-1{
+		    height: 100%;
+	    	background-image: url("../images/banner-misc-1.png");
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+			border-radius:8px;
+    	    }
+		    .banner-misc-2{
+		    height: 100%;
+	    	background-image: url("../images/banner-misc-2.png");
+			background-repeat: no-repeat;
+			background-position: top;
+			background-size: cover;
+			border-radius:8px;
+    	    }
+		    .banner-misc-3{
+		    height: 100%;
+	    	background-image: url("../images/banner-misc-3.png");
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+			border-radius:8px;
+    	    }
+	    }
+	    h4{
+	    	color:black;
+	    	font-size:50px;
+	    }
+
+    }
+}
