@@ -9,8 +9,7 @@
 		float:left;
 		font-size: 0.9rem;
 	    color: $farmy2;
-	    margin-bottom:10px;
-	    
+	    margin-bottom:10px;	    
 	}
 	.banners-misc{
 		display: flex;
@@ -29,7 +28,7 @@
 			}
 		    .banner-misc-1{
 		    height: 100%;
-	    	background-image: url("../images/banner-misc-1.png");
+	    	background-image: url("../images/banner-misc-1.jpg");
 			background-repeat: no-repeat;
 			background-position: center;
 			background-size: cover;
@@ -37,7 +36,7 @@
     	    }
 		    .banner-misc-2{
 		    height: 100%;
-	    	background-image: url("../images/banner-misc-2.png");
+	    	background-image: url("../images/banner-misc-2.jpg");
 			background-repeat: no-repeat;
 			background-position: top;
 			background-size: cover;
@@ -45,7 +44,7 @@
     	    }
 		    .banner-misc-3{
 		    height: 100%;
-	    	background-image: url("../images/banner-misc-3.png");
+	    	background-image: url("../images/banner-misc-3.jpg");
 			background-repeat: no-repeat;
 			background-position: center;
 			background-size: cover;
@@ -56,6 +55,5 @@
 	    	color:black;
 	    	font-size:50px;
 	    }
-
     }
 }

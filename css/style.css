@@ -24,7 +24,7 @@
   background: #f26f00;
 }
 
-/* line 27, ../sass/_nav.scss */
+/* line 26, ../sass/_nav.scss */
 .menu {
   display: none;
   height: 100vh;
@@ -35,15 +35,15 @@
   box-shadow: -6px 6px 29px -3px;
   z-index: 2;
 }
-/* line 36, ../sass/_nav.scss */
+/* line 35, ../sass/_nav.scss */
 .menu.is-open {
   display: block;
 }
-/* line 39, ../sass/_nav.scss */
+/* line 38, ../sass/_nav.scss */
 .menu .container {
   height: 100%;
 }
-/* line 43, ../sass/_nav.scss */
+/* line 42, ../sass/_nav.scss */
 .menu .container ul {
   margin-top: 60px;
   position: relative;
@@ -52,7 +52,7 @@
   text-align: center;
   padding-top: 20px;
 }
-/* line 50, ../sass/_nav.scss */
+/* line 49, ../sass/_nav.scss */
 .menu .container ul li {
   padding: 8px 20px;
   list-style-type: none;
@@ -238,63 +238,62 @@
 }
 /* line 124, ../sass/_category.scss */
 #categories .category .background-obst {
-  background-image: url("../images/category-obst.jpg"), linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, transparent 36%);
+  background-image: url("../images/category-obst.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 /* line 130, ../sass/_category.scss */
 #categories .category .background-flei {
-  background-image: url("../images/category-flei.jpg"), linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, transparent 36%);
+  background-image: url("../images/category-flei.jpg");
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
 }
 /* line 136, ../sass/_category.scss */
 #categories .category .background-milc {
-  background-image: url("../images/category-milc.jpg"), linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, transparent 36%);
+  background-image: url("../images/category-milc.jpg");
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
 }
 /* line 142, ../sass/_category.scss */
 #categories .category .background-korb {
-  background-image: url("../images/category-korb.jpg"), linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, transparent 36%);
+  background-image: url("../images/category-korb.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 /* line 148, ../sass/_category.scss */
 #categories .category .background-back {
-  background-image: url("../images/category-back.jpg"), linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, transparent 36%);
+  background-image: url("../images/category-back.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 /* line 154, ../sass/_category.scss */
 #categories .category .background-vorra {
-  background-image: url("../images/category-vorra.jpg"), linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, transparent 36%);
+  background-image: url("../images/category-vorra.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 /* line 160, ../sass/_category.scss */
 #categories .category .background-getr {
-  background-image: url("../images/category-getr.jpg"), linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, transparent 36%);
-  background-repeat: no-repeat;
+  background-image: url("../images/category-getr.jpg");
   background-position: bottom;
   background-size: cover;
 }
-/* line 166, ../sass/_category.scss */
+/* line 165, ../sass/_category.scss */
 #categories .category .background-mues {
-  background-image: url("../images/category-mues.jpg"), linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, transparent 36%);
+  background-image: url("../images/category-mues.jpg");
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
 }
-/* line 172, ../sass/_category.scss */
+/* line 171, ../sass/_category.scss */
 #categories .category .background-vega {
-  background-image: url("../images/category-vega.jpg"), linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, transparent 36%);
+  background-image: url("../images/category-vega.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -385,19 +384,18 @@
 /* line 71, ../sass/_card.scss */
 #neu .cards .card .demo-product-3 {
   background-image: url("../images/neu-3.jpg");
-  background-image: url("../images/neu-3.jpg"), linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, transparent 99%);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
-/* line 78, ../sass/_card.scss */
+/* line 77, ../sass/_card.scss */
 #neu .cards .card .demo-product-4 {
   background-image: url("../images/neu-4.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
-/* line 85, ../sass/_card.scss */
+/* line 84, ../sass/_card.scss */
 #neu .cards .card .bottom-card button:last-child {
   float: right;
   color: white;
@@ -409,7 +407,7 @@
   border-radius: 6px;
   background: #32702E;
 }
-/* line 95, ../sass/_card.scss */
+/* line 94, ../sass/_card.scss */
 #neu .cards .card .bottom-card button:last-child i {
   background: black;
   font-size: 1.1rem;
@@ -418,7 +416,7 @@
   margin: 0px 0px -8px 8px;
   background: #3D9A37;
 }
-/* line 105, ../sass/_card.scss */
+/* line 104, ../sass/_card.scss */
 #neu .cards .card .bottom-card button:first-child {
   float: left;
   color: white;
@@ -432,7 +430,7 @@
   background: transparent;
   border: 1px solid #cccccc;
 }
-/* line 117, ../sass/_card.scss */
+/* line 116, ../sass/_card.scss */
 #neu .cards .card .bottom-card button:first-child:hover {
   background: #dd4b39;
   border: 1px solid #dd4b39;
@@ -497,14 +495,14 @@
   color: #3D9A37;
   margin-bottom: 10px;
 }
-/* line 15, ../sass/_misc.scss */
+/* line 14, ../sass/_misc.scss */
 #misc .banners-misc {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
 }
-/* line 20, ../sass/_misc.scss */
+/* line 19, ../sass/_misc.scss */
 #misc .banners-misc .banner-misc {
   height: 60px;
   width: 97%;
@@ -514,39 +512,39 @@
   margin: 5px;
 }
 @media (min-width: 600px) {
-  /* line 20, ../sass/_misc.scss */
+  /* line 19, ../sass/_misc.scss */
   #misc .banners-misc .banner-misc {
     height: 120px;
   }
 }
-/* line 30, ../sass/_misc.scss */
+/* line 29, ../sass/_misc.scss */
 #misc .banners-misc .banner-misc .banner-misc-1 {
   height: 100%;
-  background-image: url("../images/banner-misc-1.png");
+  background-image: url("../images/banner-misc-1.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   border-radius: 8px;
 }
-/* line 38, ../sass/_misc.scss */
+/* line 37, ../sass/_misc.scss */
 #misc .banners-misc .banner-misc .banner-misc-2 {
   height: 100%;
-  background-image: url("../images/banner-misc-2.png");
+  background-image: url("../images/banner-misc-2.jpg");
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
   border-radius: 8px;
 }
-/* line 46, ../sass/_misc.scss */
+/* line 45, ../sass/_misc.scss */
 #misc .banners-misc .banner-misc .banner-misc-3 {
   height: 100%;
-  background-image: url("../images/banner-misc-3.png");
+  background-image: url("../images/banner-misc-3.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   border-radius: 8px;
 }
-/* line 55, ../sass/_misc.scss */
+/* line 54, ../sass/_misc.scss */
 #misc .banners-misc h4 {
   color: black;
   font-size: 50px;
